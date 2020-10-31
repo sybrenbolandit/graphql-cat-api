@@ -1,0 +1,8 @@
+type Query {
+    cat(chipId: String!): Cat
+}
+
+type Cat {
+    name: String
+    age: Int
+}
