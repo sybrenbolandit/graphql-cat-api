@@ -10,6 +10,7 @@ import javax.inject.Singleton;
 public class CatDataFetcher implements DataFetcher<CatDTO> {
     @Override
     public CatDTO get(DataFetchingEnvironment dataFetchingEnvironment) {
+        System.out.println("".isEmpty());
         return new CatDTO("Fred", 4);
     }
 }
