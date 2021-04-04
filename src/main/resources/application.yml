@@ -13,4 +13,4 @@ graphql:
 endpoints:
   loggers:
     enabled: true
-    write-sensative: false
+    write-sensitive: false
