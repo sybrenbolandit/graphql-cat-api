@@ -9,3 +9,8 @@ graphql:
     enabled: true
     path: /graphiql
     page-title: GraphiQL
+
+endpoints:
+  loggers:
+    enabled: true
+    write-sensative: false
